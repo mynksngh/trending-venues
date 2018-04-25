@@ -1,0 +1,6 @@
+#  sudo apt-get install $(grep -vE "^\s*#" ../requirements/ubuntu.txt  | tr "\n" " ")
+
+# Ubuntu Packages.
+libpq-dev 
+postgresql 
+postgresql-contrib
